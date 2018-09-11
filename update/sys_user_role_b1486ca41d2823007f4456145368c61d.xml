@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_snc_app_demo.simple_calculator_user</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>simple_calculator_user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 07:20:29</sys_created_on>
+        <sys_id>b1486ca41d2823007f4456145368c61d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_snc_app_demo.simple_calculator_user</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_user_role_b1486ca41d2823007f4456145368c61d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 07:20:29</sys_updated_on>
+    </sys_user_role>
+</record_update>

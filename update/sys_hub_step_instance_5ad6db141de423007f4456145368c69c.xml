@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_step_instance">
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="[Demo] Action">82d6db141de423007f4456145368c674</action>
+        <cid>7b25f6d9-feaf-4e0d-943e-eb6667c508ea</cid>
+        <extended_inputs/>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <label>Script step</label>
+        <order>1</order>
+        <outputs/>
+        <step_type display_value="Script">106afb6647032200b4fad7527c9a71e7</step_type>
+        <sys_class_name>sys_hub_step_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 01:24:42</sys_created_on>
+        <sys_id>5ad6db141de423007f4456145368c69c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Script step</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_hub_step_instance_5ad6db141de423007f4456145368c69c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 01:24:43</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=5ad6db141de423007f4456145368c69c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>5ad6db141de423007f4456145368c69c</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 01:24:43</sys_created_on>
+        <sys_id>16d6db141de423007f4456145368c6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 01:24:43</sys_updated_on>
+        <value>(function execute(inputs, outputs) {
+outputs.step_str = "Personalize note: "  + inputs.step_myMessage + " on " + inputs.step_myRecord;
+ 
+})(inputs, outputs);
+</value>
+        <variable display_value="">71aa7f6647032200b4fad7527c9a719b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5ad6db141de423007f4456145368c69c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script</field>
+        <id>5ad6db141de423007f4456145368c69c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 01:24:43</sys_created_on>
+        <sys_id>92d6db141de423007f4456145368c6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 01:24:43</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_106afb6647032200b4fad7527c9a71e7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>step_myMessage</field>
+        <id>5ad6db141de423007f4456145368c69c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 01:24:43</sys_created_on>
+        <sys_id>d2d6db141de423007f4456145368c6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 01:24:43</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5ad6db141de423007f4456145368c69c</table>
+        <value>{{action.ah_message}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>step_myRecord</field>
+        <id>5ad6db141de423007f4456145368c69c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 01:24:43</sys_created_on>
+        <sys_id>12d6db141de423007f4456145368c6b8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 01:24:43</sys_updated_on>
+        <table>var__m_sys_hub_step_ext_input_5ad6db141de423007f4456145368c69c</table>
+        <value>{{action.ah_record.number}}</value>
+    </sys_element_mapping>
+</record_update>

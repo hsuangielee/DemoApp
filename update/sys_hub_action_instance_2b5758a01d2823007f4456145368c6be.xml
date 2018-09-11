@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Assign VTB Card">cc3b2c292fc00300e8f802d3c18c9572</action_type>
+        <comment/>
+        <compiled_snapshot display_value="Assign VTB Card">cc3b2c292fc00300e8f802d3c18c9572</compiled_snapshot>
+        <display_text/>
+        <flow display_value="My Class Demo">2b5750a01d2823007f4456145368c60a</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:37</sys_created_on>
+        <sys_id>2b5758a01d2823007f4456145368c6be</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_hub_action_instance_2b5758a01d2823007f4456145368c6be</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:06:37</sys_updated_on>
+        <ui_id>80b6ec23-b744-427d-b404-b92f69b0e34b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2b5758a01d2823007f4456145368c6be"/>
+    <sys_element_mapping action="delete_multiple" query="id=2b5758a01d2823007f4456145368c6be"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Card</field>
+        <id>2b5758a01d2823007f4456145368c6be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:37</sys_created_on>
+        <sys_id>ef5758a01d2823007f4456145368c6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:06:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc3b2c292fc00300e8f802d3c18c9572</table>
+        <value>{{44855a55-d3eb-4e38-8221-c211d74f3eff.Card}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>User</field>
+        <id>2b5758a01d2823007f4456145368c6be</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:37</sys_created_on>
+        <sys_id>2f5758a01d2823007f4456145368c6c0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:06:37</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc3b2c292fc00300e8f802d3c18c9572</table>
+        <value>{{Created or Updated_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+</record_update>

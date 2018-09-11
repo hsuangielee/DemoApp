@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Simple calculator" language="en" table="x_snc_app_demo_simple_calculator">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Simple calculator</label>
+            <language>en</language>
+            <name>x_snc_app_demo_simple_calculator</name>
+            <plural>Simple calculators</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-11 07:20:30</sys_created_on>
+            <sys_id>8a48eca41d2823007f4456145368c6d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Simple calculator</sys_name>
+            <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_app_demo_simple_calculator__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-11 07:20:30</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

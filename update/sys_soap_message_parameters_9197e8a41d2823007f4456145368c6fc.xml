@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_soap_message_parameters">
+    <sys_soap_message_parameters action="INSERT_OR_UPDATE">
+        <name>Add.intB</name>
+        <soap_function display_value="CalculatorSoap12.Add">2c77a8a41d2823007f4456145368c6cf</soap_function>
+        <sys_class_name>sys_soap_message_parameters</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 07:17:32</sys_created_on>
+        <sys_id>9197e8a41d2823007f4456145368c6fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Add.intB</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_soap_message_parameters_9197e8a41d2823007f4456145368c6fc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 07:17:32</sys_updated_on>
+        <type>string</type>
+        <value>5</value>
+    </sys_soap_message_parameters>
+</record_update>

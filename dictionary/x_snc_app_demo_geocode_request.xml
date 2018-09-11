@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Geocode request" max_length="40" name="x_snc_app_demo_geocode_request" type="collection">
+        <element label="Address" max_length="40" name="address" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="Language" max_length="40" name="language" type="string"/>
+        <element label="Latitude" max_length="40" name="latitude" type="string"/>
+        <element label="Longitude" max_length="40" name="longitude" type="string"/>
+        <element label="Response body" max_length="4000" name="response_body" type="string"/>
+    </element>
+</database>

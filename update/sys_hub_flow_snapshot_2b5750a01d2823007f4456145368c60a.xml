@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created or Updated_1.current.number","label":"Trigger➛Demo Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_app_demo_demo","column_name":"number"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger➛Demo Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"44855a55-d3eb-4e38-8221-c211d74f3eff.Card","label":"1➛Card","reference":"vtb_card","reference_display":"Visual Task Board Card","type":"document_id","base_type":"document_id"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger➛Demo Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"x_snc_app_demo_demo","column_name":"assigned_to"},{"name":"Created or Updated_1.current","label":"Trigger➛Demo Record","reference":"x_snc_app_demo_demo","reference_display":"Demo","type":"reference","base_type":"reference"}]</label_cache>
+        <name>My Class Demo</name>
+        <parent_flow display_value="My Class Demo">7b151c601d2823007f4456145368c6e5</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:36</sys_created_on>
+        <sys_id>2b5750a01d2823007f4456145368c60a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Class Demo</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_2b5750a01d2823007f4456145368c60a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:06:36</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

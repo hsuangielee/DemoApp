@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Simple calculator" max_length="40" name="x_snc_app_demo_simple_calculator" type="collection">
+        <element label="Description" max_length="4000" name="description" type="string"/>
+        <element label="Num1" max_length="40" name="num1" type="integer"/>
+        <element label="Num2" max_length="40" name="num2" type="integer"/>
+        <element label="Result" max_length="40" name="result" type="string"/>
+    </element>
+</database>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sc_mobile_layout_cats_mtom">
+    <sc_mobile_layout_cats_mtom action="INSERT_OR_UPDATE">
+        <category display_value="DEMO">ce6bce2c1d6823007f4456145368c66b</category>
+        <mobile_layout display_value="">cbafccd2eb2201003623666cd206fee9</mobile_layout>
+        <order>700</order>
+        <sys_class_name>sc_mobile_layout_cats_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 14:37:57</sys_created_on>
+        <sys_id>f96c826c1d6823007f4456145368c62e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DEMO.</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sc_mobile_layout_cats_mtom_f96c826c1d6823007f4456145368c62e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 14:37:57</sys_updated_on>
+    </sc_mobile_layout_cats_mtom>
+</record_update>

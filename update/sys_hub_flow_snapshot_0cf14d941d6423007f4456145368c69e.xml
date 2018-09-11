@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <label_cache>[{"name":"Created or Updated_1.current","label":"Trigger➛Demo Record","reference":"x_snc_app_demo_demo","reference_display":"Demo","type":"reference","base_type":"reference"}]</label_cache>
+        <name>Demo task</name>
+        <parent_flow display_value="[DEMO] VTB Task">02f049941d6423007f4456145368c6fe</parent_flow>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-10 14:34:06</sys_created_on>
+        <sys_id>0cf14d941d6423007f4456145368c69e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Demo task</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_0cf14d941d6423007f4456145368c69e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-10 14:34:06</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

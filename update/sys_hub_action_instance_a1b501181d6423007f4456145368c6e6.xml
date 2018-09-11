@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type>
+        <comment/>
+        <compiled_snapshot display_value="">98c181d20b100300d97d8bf637673ab5</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Demo task">5db501181d6423007f4456145368c67b</flow>
+        <order>3</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-10 14:50:36</sys_created_on>
+        <sys_id>a1b501181d6423007f4456145368c6e6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_hub_action_instance_a1b501181d6423007f4456145368c6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-10 14:50:36</sys_updated_on>
+        <ui_id>e1808d18-8ff1-4d3d-a7f7-627f7c101582</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a1b501181d6423007f4456145368c6e6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a1b501181d6423007f4456145368c6e6</document_key>
+        <order>4</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-10 14:50:36</sys_created_on>
+        <sys_id>65b501181d6423007f4456145368c6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-10 14:50:36</sys_updated_on>
+        <value>&lt;p&gt;Hello here a task for you&lt;/p&gt;</value>
+        <variable display_value="">c71241160b100300d97d8bf637673a55</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a1b501181d6423007f4456145368c6e6"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_body</field>
+        <id>a1b501181d6423007f4456145368c6e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-10 14:50:36</sys_created_on>
+        <sys_id>e1b501181d6423007f4456145368c6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-10 14:50:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>a1b501181d6423007f4456145368c6e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-10 14:50:36</sys_created_on>
+        <sys_id>21b501181d6423007f4456145368c6e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-10 14:50:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>Demo Task - {{Created or Updated_1.current.number}} Assigned to you</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>a1b501181d6423007f4456145368c6e6</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-10 14:50:36</sys_created_on>
+        <sys_id>6db501181d6423007f4456145368c6e8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-10 14:50:36</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created or Updated_1.current.assigned_to.email}}</value>
+    </sys_element_mapping>
+</record_update>

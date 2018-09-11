@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Demo" max_length="40" name="x_snc_app_demo_demo" sizeclass="2" type="collection">
+        <element choice="1" label="Demo type" max_length="40" name="demo_type" type="choice">
+            <choice>
+                <element label="Product demo" sequence="0" value="Product demo"/>
+                <element label="Solution review" sequence="1" value="Solution review"/>
+                <element label="Process review" sequence="2" value="Process review"/>
+            </choice>
+        </element>
+        <element attributes="current_location=true" hint="This is my custom field - it helps!!!!" label="My Custom Field" max_length="40" name="my_custom_field" type="string"/>
+    </element>
+</database>

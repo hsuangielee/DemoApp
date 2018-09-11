@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="my_custom_field" label="My Custom Field" language="en" table="x_snc_app_demo_demo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>my_custom_field</element>
+            <help/>
+            <hint>This is my custom field - it helps!!!!</hint>
+            <label>My Custom Field</label>
+            <language>en</language>
+            <name>x_snc_app_demo_demo</name>
+            <plural>My Custom Fields</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-10 05:20:29</sys_created_on>
+            <sys_id>923343c41de023007f4456145368c65a</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_name>My Custom Field</sys_name>
+            <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_app_demo_demo_my_custom_field_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-10 07:12:09</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Assign VTB Card">cc3b2c292fc00300e8f802d3c18c9572</action_type>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="My Class Demo">7b151c601d2823007f4456145368c6e5</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:00</sys_created_on>
+        <sys_id>3e3718a01d2823007f4456145368c6d3</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_hub_action_instance_3e3718a01d2823007f4456145368c6d3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 15:09:41</sys_updated_on>
+        <ui_id>80b6ec23-b744-427d-b404-b92f69b0e34b</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=3e3718a01d2823007f4456145368c6d3"/>
+    <sys_element_mapping action="delete_multiple" query="id=3e3718a01d2823007f4456145368c6d3"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Card</field>
+        <id>3e3718a01d2823007f4456145368c6d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:00</sys_created_on>
+        <sys_id>7a3718a01d2823007f4456145368c6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:06:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f7aa8292fc00300e8f802d3c18c950b</table>
+        <value>{{44855a55-d3eb-4e38-8221-c211d74f3eff.Card}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>Card</field>
+        <id>3e3718a01d2823007f4456145368c6d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:01</sys_created_on>
+        <sys_id>f23718a01d2823007f4456145368c6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:06:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc3b2c292fc00300e8f802d3c18c9572</table>
+        <value>{{44855a55-d3eb-4e38-8221-c211d74f3eff.Card}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>User</field>
+        <id>3e3718a01d2823007f4456145368c6d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:01</sys_created_on>
+        <sys_id>323718a01d2823007f4456145368c6f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:06:01</sys_updated_on>
+        <table>var__m_sys_hub_action_input_cc3b2c292fc00300e8f802d3c18c9572</table>
+        <value>{{Created or Updated_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>User</field>
+        <id>3e3718a01d2823007f4456145368c6d3</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-11 06:06:00</sys_created_on>
+        <sys_id>b63718a01d2823007f4456145368c6d6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:06:00</sys_updated_on>
+        <table>var__m_sys_hub_action_input_3f7aa8292fc00300e8f802d3c18c950b</table>
+        <value>{{Created or Updated_1.current.assigned_to}}</value>
+    </sys_element_mapping>
+</record_update>

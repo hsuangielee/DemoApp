@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices>Development=DEV, UAT=UAT,Production=PROD</choices>
+        <description>Select the environment to connect to</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_snc_app_demo.integration.environment</name>
+        <read_roles/>
+        <suffix>integration.environment</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-10 15:28:59</sys_created_on>
+        <sys_id>592e41981d6423007f4456145368c67d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_snc_app_demo.integration.environment</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_properties_592e41981d6423007f4456145368c67d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:52:30</sys_updated_on>
+        <type>choicelist</type>
+        <value>UAT</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=592e41981d6423007f4456145368c67d"/>
+</record_update>
