@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Demo" max_length="40" name="x_snc_app_demo_demo" sizeclass="2" type="collection">
+    <element extends="task" label="Demo" max_length="40" name="x_snc_app_demo_demo" sizeclass="4" type="collection">
         <element choice="1" label="Demo type" max_length="40" name="demo_type" type="choice">
             <choice>
                 <element label="Product demo" sequence="0" value="Product demo"/>

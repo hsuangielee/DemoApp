@@ -3,26 +3,26 @@
     <sys_atf_step action="INSERT_OR_UPDATE">
         <active>true</active>
         <description>There should be at least one record in 'vtb_card' matching a query of
-Task = {{Step 4: Submit a Form.Record}}</description>
+Task = {{Step 3: Submit a Form.Record}}</description>
         <display_name>Record Query</display_name>
         <inputs/>
         <inputs/>
-        <order>5</order>
+        <order>4</order>
         <step_config display_value="Record Query">0270b8005f30220012b44adb7f46666a</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-11 15:11:19</sys_created_on>
         <sys_id>378356a01da823007f4456145368c6f6</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>Record Query</sys_name>
         <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
         <sys_policy/>
         <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
         <sys_update_name>sys_atf_step_378356a01da823007f4456145368c6f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-11 15:28:36</sys_updated_on>
+        <sys_updated_on>2018-09-12 07:30:02</sys_updated_on>
         <table>vtb_card</table>
-        <test display_value="DEMO TEST">740352a01da823007f4456145368c601</test>
+        <test display_value="[DEMO] Draft">740352a01da823007f4456145368c601</test>
         <timeout/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=378356a01da823007f4456145368c6f6"/>

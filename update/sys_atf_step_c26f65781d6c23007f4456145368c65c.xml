@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>There should be at least one record in 'vtb_card' matching a query of
+Task = {{Step 4: Submit a Form.Record}}</description>
+        <display_name>Record Query</display_name>
+        <inputs/>
+        <inputs/>
+        <order>5</order>
+        <step_config display_value="Record Query">0270b8005f30220012b44adb7f46666a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:11:06</sys_created_on>
+        <sys_id>c26f65781d6c23007f4456145368c65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Query</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_atf_step_c26f65781d6c23007f4456145368c65c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:11:06</sys_updated_on>
+        <table>vtb_card</table>
+        <test display_value="My Test ">6b8da9381d6c23007f4456145368c675</test>
+        <timeout/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=c26f65781d6c23007f4456145368c65c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c26f65781d6c23007f4456145368c65c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:11:06</sys_created_on>
+        <sys_id>46bfa5781d6c23007f4456145368c65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:11:06</sys_updated_on>
+        <value>task={{step['2dbea1781d6c23007f4456145368c67f'].record_id}}^EQ</value>
+        <variable display_value="">cf167c405f30220012b44adb7f46660d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>c26f65781d6c23007f4456145368c65c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:11:06</sys_created_on>
+        <sys_id>82bfa5781d6c23007f4456145368c65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:11:06</sys_updated_on>
+        <value>vtb_card</value>
+        <variable display_value="">6fe5f8405f30220012b44adb7f4666e4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c26f65781d6c23007f4456145368c65c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>c26f65781d6c23007f4456145368c65c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:11:06</sys_created_on>
+        <sys_id>02bfa5781d6c23007f4456145368c65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:11:06</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value>task={{step['2dbea1781d6c23007f4456145368c67f'].record_id}}^EQ</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>c26f65781d6c23007f4456145368c65c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:11:06</sys_created_on>
+        <sys_id>4ebfa5781d6c23007f4456145368c65b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:11:06</sys_updated_on>
+        <table>var__m_atf_input_variable_0270b8005f30220012b44adb7f46666a</table>
+        <value/>
+    </sys_element_mapping>
+</record_update>

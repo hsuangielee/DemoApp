@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_atf_schedule_run">
+    <sys_atf_schedule_run action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <browser_name>any</browser_name>
+        <browser_version/>
+        <description>Run suite 'Mixed Test Suite' on a system with this configuration:
+Any browser on any version
+Any operating system on any version</description>
+        <order>100</order>
+        <os_name>any</os_name>
+        <os_version/>
+        <schedule display_value="My Test Schedule">3631fd781d6c23007f4456145368c6e8</schedule>
+        <sys_class_name>sys_atf_schedule_run</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 07:18:44</sys_created_on>
+        <sys_id>6f5131b81d6c23007f4456145368c698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>100</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>sys_atf_schedule_run_6f5131b81d6c23007f4456145368c698</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 07:18:44</sys_updated_on>
+        <test_suite display_value="Mixed Test Suite">3872dfd00b20220050192f15d6673a76</test_suite>
+        <watch_list/>
+    </sys_atf_schedule_run>
+</record_update>

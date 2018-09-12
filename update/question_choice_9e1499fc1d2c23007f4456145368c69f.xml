@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <misc>0</misc>
+        <order>6</order>
+        <question display_value="What do you need?">1e1499fc1d2c23007f4456145368c68a</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 05:10:25</sys_created_on>
+        <sys_id>9e1499fc1d2c23007f4456145368c69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request for a new service</sys_name>
+        <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
+        <sys_update_name>question_choice_9e1499fc1d2c23007f4456145368c69f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 05:10:25</sys_updated_on>
+        <text>Request for a new service</text>
+        <value>Request for a new service</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=9e1499fc1d2c23007f4456145368c69f"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>9e1499fc1d2c23007f4456145368c69f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 05:10:25</sys_created_on>
+        <sys_id>121499fc1d2c23007f4456145368c6a1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 05:10:25</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>9e1499fc1d2c23007f4456145368c69f</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-12 05:10:25</sys_created_on>
+        <sys_id>d61499fc1d2c23007f4456145368c6a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-12 05:10:25</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

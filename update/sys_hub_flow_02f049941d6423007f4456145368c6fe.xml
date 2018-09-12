@@ -3,7 +3,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <active>false</active>
         <description/>
-        <label_cache>[{"name":"e1808d18-8ff1-4d3d-a7f7-627f7c101582.email","label":"3➛email","reference":"sys_email","reference_display":"email"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger➛Demo Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"Created or Updated_1.current.assigned_to.city","label":"Trigger➛Demo Record➛Assigned to➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"city"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Demo Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_app_demo_demo","column_name":"number"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger➛Demo Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"x_snc_app_demo_demo","column_name":"assigned_to"},{"name":"3c160335-99a2-45d9-b16c-4fa615192def.Card","label":"1➛Card","reference":"vtb_card","reference_display":"Card"},{"name":"Created or Updated_1.current","label":"Trigger➛Demo Record","reference":"x_snc_app_demo_demo","reference_display":"Demo","type":"reference","base_type":"reference"},{"name":"e74aa529-a978-4694-88a8-d9035bdb0896.record","label":"5➛Demo Record","reference":"x_snc_app_demo_demo","reference_display":"Demo Record"},{"name":"e74aa529-a978-4694-88a8-d9035bdb0896.table_name","label":"5➛Demo Table","reference":"x_snc_app_demo_demo","reference_display":"Demo Table"},{"name":"51c3af45-566f-4c83-b70e-faacf5db4de0.result","label":"4➛result","type":"string","base_type":"string"}]</label_cache>
+        <label_cache>[{"name":"51c3af45-566f-4c83-b70e-faacf5db4de0.result","label":"4➛result","type":"string","base_type":"string"},{"name":"e74aa529-a978-4694-88a8-d9035bdb0896.table_name","label":"5➛Demo Table","reference":"x_snc_app_demo_demo","reference_display":"Demo Table"},{"name":"e74aa529-a978-4694-88a8-d9035bdb0896.record","label":"5➛Demo Record","reference":"x_snc_app_demo_demo","reference_display":"Demo Record"},{"name":"Created or Updated_1.current","label":"Trigger➛Demo Record","reference":"x_snc_app_demo_demo","reference_display":"Demo","type":"reference","base_type":"reference"},{"name":"3c160335-99a2-45d9-b16c-4fa615192def.Card","label":"1➛Card","reference":"vtb_card","reference_display":"Card"},{"name":"Created or Updated_1.current.assigned_to","label":"Trigger➛Demo Record➛Assigned to","reference":"sys_user","reference_display":"Assigned to","type":"reference","base_type":"reference","parent_table_name":"x_snc_app_demo_demo","column_name":"assigned_to"},{"name":"Created or Updated_1.current.number","label":"Trigger➛Demo Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_snc_app_demo_demo","column_name":"number"},{"name":"Created or Updated_1.current.assigned_to.city","label":"Trigger➛Demo Record➛Assigned to➛City","reference":"","reference_display":"City","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"city"},{"name":"Created or Updated_1.current.assigned_to.email","label":"Trigger➛Demo Record➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"e1808d18-8ff1-4d3d-a7f7-627f7c101582.email","label":"3➛email","reference":"sys_email","reference_display":"email"}]</label_cache>
         <latest_snapshot/>
         <name>[DEMO] VTB Task</name>
         <show_draft_actions>true</show_draft_actions>
@@ -12,13 +12,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-10 14:29:53</sys_created_on>
         <sys_id>02f049941d6423007f4456145368c6fe</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>[DEMO] VTB Task</sys_name>
         <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
         <sys_policy/>
         <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
         <sys_update_name>sys_hub_flow_02f049941d6423007f4456145368c6fe</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-11 01:24:18</sys_updated_on>
+        <sys_updated_on>2018-09-12 06:09:35</sys_updated_on>
     </sys_hub_flow>
 </record_update>

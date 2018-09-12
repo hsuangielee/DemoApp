@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-10 15:13:43</sys_created_on>
         <sys_id>940b85581d6423007f4456145368c614</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name/>
         <sys_package display_value="APP DEMO" source="x_snc_app_demo">f2d08f441de023007f4456145368c681</sys_package>
         <sys_policy/>
         <sys_scope display_value="APP DEMO">f2d08f441de023007f4456145368c681</sys_scope>
         <sys_update_name>sys_hub_action_instance_940b85581d6423007f4456145368c614</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-11 01:24:19</sys_updated_on>
+        <sys_updated_on>2018-09-12 06:09:35</sys_updated_on>
         <ui_id>e74aa529-a978-4694-88a8-d9035bdb0896</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=940b85581d6423007f4456145368c614"/>
@@ -33,10 +33,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-11 01:24:18</sys_created_on>
         <sys_id>1cc69b141de423007f4456145368c6c6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-11 01:24:18</sys_updated_on>
-        <value>description=</value>
+        <sys_updated_on>2018-09-12 06:09:35</sys_updated_on>
+        <value/>
         <variable display_value="">e7d270ccc3c632002841b63b12d3ae8b</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
@@ -84,10 +84,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-10 15:13:43</sys_created_on>
         <sys_id>180b85581d6423007f4456145368c617</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-11 01:24:18</sys_updated_on>
+        <sys_updated_on>2018-09-12 06:09:35</sys_updated_on>
         <table>var__m_sys_hub_action_input_baf174c8c3c232002841b63b12d3aee4</table>
-        <value/>
+        <value>description={{51c3af45-566f-4c83-b70e-faacf5db4de0.result}}</value>
     </sys_element_mapping>
 </record_update>
